@@ -1,0 +1,43 @@
+# Virtual environment folders
+.venv/
+env/
+venv/
+
+# Python bytecode files
+__pycache__/
+*.py[cod]
+
+# Python distribution and packaging
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+MANIFEST
+
+# Test coverage reports
+.coverage
+*.coveragerc
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# log files
+*.log
+
+# Local database files (SQLite, etc.)
+*.sqlite3
+
+# .env files (you don't want to commit sensitive info like passwords)
+.env
+.env.local
+.env.*.local
+
+# IDE or editor settings
+.vscode/
+.idea/
+*.iml
+
+# Operating system files
+.DS_Store
+Thumbs.db
